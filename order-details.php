@@ -119,6 +119,12 @@ while($row=mysqli_fetch_array($query))
 						    <img src="admin/productimages/<?php echo $row['pname'];?>/<?php echo $row['pimg1'];?>" alt="" width="84" height="146">
 						</a>
 					</td>
+					<td><?php echo $cnt;?></td>
+					<td class="cart-image">
+						<a class="entry-thumbnail" href="detail.html">
+						    <img src="admin/productimages/<?php echo $row['pname'];?>/<?php echo $row['pimg1'];?>" alt="" width="84" height="146">
+						</a>
+					</td>
 					<td class="cart-product-name-info">
 						<h4 class='cart-product-description'><a href="product-details.php?pid=<?php echo $row['opid'];?>">
 						<?php echo $row['pname'];?></a></h4>
