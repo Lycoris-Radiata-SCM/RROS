@@ -58,7 +58,7 @@ while($row=mysqli_fetch_array($ret))
       <td  class="fontkink1"><b>Remark:</b></td>
       <td  class="fontkink"><?php echo $row['remark'];?></td>
     </tr>
-
+//table for product
    
     <tr>
       <td colspan="2"><hr /></td>
